@@ -1,5 +1,8 @@
 # FlexQL Design Document
 
+Github URL : https://github.com/rahulnoobcoder/flex-sql
+
+
 ## 1) System Overview
 FlexQL is designed as a lightweight client-server database driver with a limited SQL subset focused on correctness, clarity, and high throughput for large datasets.
 
