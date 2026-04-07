@@ -1,4 +1,7 @@
-# FlexQL Performance Report
+# FlexQL Performance RepoSummary: **21/21 passed, 0 failed**
+
+## Insert Benchmark Results
+rt
 
 ## Test Environment
 - Build mode: `-O3 -std=c++17 -pthread`
@@ -23,10 +26,7 @@ printf 'SELECT ID FROM BIG_USERS WHERE BALANCE > 10998;\n.exit\n' | ./client_dem
 
 ## Unit Test Results
 From `./benchmark --unit-test`:
-- Unit Test Summary: **21/21 passed, 0 failed**
-
-## Insert Benchmark Results
-
+- Unit Test 
 | Workload | Elapsed | Throughput |
 |---|---:|---:|
 | 1,000,000 rows | 903 ms | 1,107,419 rows/sec |
